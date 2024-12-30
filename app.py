@@ -8,7 +8,7 @@ from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
 
 nltk.download('stopwords')
-nltk.download('punkt')
+nltk.download('punkt_tab')
 
 def transform_text(text):
     text = text.lower()
